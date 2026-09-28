@@ -24,21 +24,21 @@ summary:
 python3 subset_construction.py
 
 # Option 2: pipe a file into standard input
-python3 subset_construction.py < ejemplos/entrada_ejemplo.txt
+python3 subset_construction.py < entrada_ejemplo.txt
 
 # Option 3: also show a human-readable, labeled explanation of the
 # official output (initial state, final states, transition table with
 # labels) — printed on screen right after the official result. This does
 # NOT replace or alter the official output in any way.
-python3 subset_construction.py -i ejemplos/entrada_ejemplo.txt --legible
+python3 subset_construction.py -i entrada_ejemplo.txt --legible
 
 # Option 4: pass the input file explicitly with -i (this is the
 # "upload a file" mode)
-python3 subset_construction.py -i ejemplos/entrada_ejemplo.txt
+python3 subset_construction.py -i entrada_ejemplo.txt
 
 # Optional bonus feature: also produce Graphviz .dot diagrams of every
 # resulting DFA
-python3 subset_construction.py -i ejemplos/entrada_ejemplo.txt --dot diagramas.dot
+python3 subset_construction.py -i entrada_ejemplo.txt --dot diagramas.dot
 
 ```
 
