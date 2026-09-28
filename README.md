@@ -157,8 +157,7 @@ the great majority of practical automata is far smaller than `2^n`.
 ├── subset_construction.py       # Main program (heavily commented in Spanish)
 ├── README.md                    # This file
 ├── .gitignore
-└── ejemplos/
-    ├── entrada_ejemplo.txt      # The exact example from the assignment PDF
+└── entrada_ejemplo.txt      # The exact example from the assignment PDF
 ```
 
 ## Optional feature implemented
