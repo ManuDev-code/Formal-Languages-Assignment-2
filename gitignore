@@ -1,0 +1,43 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+build/
+dist/
+*.egg
+.venv/
+venv/
+env/
+ENV/
+.python-version
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# --- Salidas generadas al correr el programa (no son código fuente) ---
+salida*.txt
+resultado*.txt
+diagramas*.dot
+diagramas*.png
+diagramas*.svg
+*.log
+
+# --- Archivos de sistema operativo ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Editores / IDEs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- Empaquetado / entrega ---
+*.zip
+*.rar
+*.tar.gz
